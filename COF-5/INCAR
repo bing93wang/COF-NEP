@@ -1,0 +1,20 @@
+SYSTEM = Everything
+
+LWAVE = F               	!Output wave function: off
+ICHARG = 2             		!Read CHGCAR (2:off) (11:on): off
+LCHARG = F             		!Output charge density: off 
+PREC = Accurate           	!Precision: Normal; Accurate 
+ISTART = 0
+LREAL = Auto               
+IBRION = 2
+
+ISIF = 2
+ISMEAR = 0
+SIGMA =  0.01
+
+ENCUT = 800          
+NELM = 100
+NSW = 400
+EDIFF = 1E-08          			!Electronic convergence 
+EDIFFG = -0.05                           
+
